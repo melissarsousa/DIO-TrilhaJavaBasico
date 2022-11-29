@@ -52,7 +52,71 @@ String concatenacao ="?";
     System.out.println("->Repetição:");
     System.out.println( ++ numero3);
     
-     } 
+//condicional
+     System.out.println("->Boolean:");
+     int a, b;
+
+     a = 3;
+     b = 6;
+     String resultado = "";
+     if (a==b)
+          resultado = "true";
+     else
+          resultado = "false";
+
+     //OU
+     
+     System.out.println(resultado);
+          
+     String resultado2 = a==b ?"true":"false";
+     System.out.println(resultado2);
+
+     boolean simNao = a == b;
+     System.out.println("A é igual a B? " + simNao);
+
+//Relacionais
+     System.out.println("->Relacionais");
+     int c = 4;
+     int d = 7;
+
+     if(c > d)
+	     System.out.println("C maior que D");
+
+     if(c < d)
+	     System.out.println("C menor que D");
+
+     if(c >= d)
+	     System.out.println("C maior ou igual que D");
+
+     if(c <= d)
+	     System.out.println("C menor ou igual que D");
+
+     if(c != d)
+	     System.out.println("C é diferente de D");
+
+
+     String bsinha = "Bergsa";
+     String tikuna = "Tikuna";
+
+     if (bsinha.equals(tikuna))
+          System.out.println("Bergsa é igual a tikuna");
+     else
+          System.out.println("Bergsa não é tikuna");
+
+
+// Lógico
+     System.out.println("->Lógicos");
+     boolean condicao1 = true;
+     boolean condicao2 = false;
+
+     if (condicao1&&condicao2)
+          System.out.println("As duas condições são verdadeiras.");
+     if((condicao1||condicao2)&&(condicao1!=condicao2))
+          System.out.println("Apenas umas das condições é verdadeira.");
+
+
+
+} 
 
     
 
