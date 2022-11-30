@@ -7,6 +7,7 @@ public class PontosImportantes {
     //(String [] args): Define que o método deve receber como parâmetro um array de String (nomeado args). Nesse caso específico: este parâmetro serve para caso seu programa precise receber algum valor como argumento.
     //concatenacao = 1+"1"+1+1; FICA 1111, pois quando detecta caractere não volta mais para operação
     //concatenacao = "1"+(1+1+1); FICA 13, por conta da evidência
+    // Métodos tem sempre uma única função; ex: calcularImposto
 
 
 }
